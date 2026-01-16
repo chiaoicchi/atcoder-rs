@@ -1,0 +1,35 @@
+test-suite = "{{ manifest_dir }}/testcases/{{ bin_alias }}.yml"
+
+[template]
+src = '''
+#[allow(unused)]
+use itertools::Itertools;
+use proconio::input;
+#[allow(unused)]
+use proconio::marker::*;
+#[allow(unused)]
+use std::collections::*;
+
+
+fn main() {
+    input! {};
+}
+'''
+
+[template.new]
+edition = "2021"
+
+dependencies = '''
+itertools = "=0.14.0"
+proconio = { version = "=0.5.0", features = ["derive"] }
+'''
+
+[new]
+kind = "cargo-compete"
+platform = "atcoder"
+path = "./{{ contest }}"
+
+[submit]
+kind = "file"
+path = "{{ src_path }}"
+language_id = "6088"
