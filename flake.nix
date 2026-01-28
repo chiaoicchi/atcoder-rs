@@ -51,7 +51,6 @@
           shellHook = ''
             echo "AtCoder Rust Environment (fenix)"
             echo "  Rust $(rustc --version)"
-            echo ""
           '';
         };
       }
