@@ -1,6 +1,7 @@
 # Rust
 .cargo/
 target/
+**/testcases/
 
 # Direnv
 .direnv/
