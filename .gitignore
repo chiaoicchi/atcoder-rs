@@ -1,5 +1,6 @@
 # Rust
 .cargo/
+target/
 
 # Direnv
 .direnv/
