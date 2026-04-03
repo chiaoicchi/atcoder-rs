@@ -1,0 +1,8 @@
+[alias]
+ra = ["run", "--release", "--bin", "a"]
+rb = ["run", "--release", "--bin", "b"]
+rc = ["run", "--release", "--bin", "c"]
+rd = ["run", "--release", "--bin", "d"]
+re = ["run", "--release", "--bin", "e"]
+rf = ["run", "--release", "--bin", "f"]
+rg = ["run", "--release", "--bin", "g"]
